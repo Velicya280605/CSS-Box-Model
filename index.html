@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Box Model</title>
+	<style type="text/css">
+		div{
+			height: 200px;
+			width: 200px;
+		}
+		p{
+			margin: 0;
+		}
+
+		#first{
+			background-color: cadetblue;
+			padding: 20px;
+			border: 10px solid black;
+		}
+
+		#second{
+			background-color: gold;
+			border: solid black;
+			border-width: 20px 10px;
+			margin-left: 260px;
+		}
+
+		#third{
+			background-color: indianred;
+			border: 10px solid black;
+			margin-left: 40px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Langkah-langkah dalam membuat -->
+	<!-- 1. Buat 3 kotak tersebut menggunakan div element -->
+	<!-- 2. Men-setting ukuran width dan height size 200px -->
+	<!-- 3. Men-setting backgorund color nya -->
+	<!-- 4. Mengisi konten pada kotak pertama -->
+	<!-- 5. Melakukan setting pada kotak kedua sesuai dengan instruksi setting padding dan border -->
+	<!-- 6. Mem-fix-kan style pada semua paragraf element untuk menghapus margin -->
+	<!-- 7. Mensetkan div kedua sesuai gambar -->
+	<!-- 8. Mesetkan div ketiga sesuai gambar -->
+	<!-- 9. Mensetkan margin untuk setiap div supaya tepi kotak saling bersentuhan -->
+
+	<div id="first">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+
+	<div id="second">
+		<p align="center">Ini kotak kedua</p>
+	</div>
+
+	<div id="third">
+		<p>Ini kotak ketiga</p>
+	</div>
+
+</body>
+</html>
